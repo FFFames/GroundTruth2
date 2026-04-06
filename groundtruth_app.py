@@ -57,7 +57,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 def load_questions():
     # 1. ลองหาจาก Path สัมพัทธ์ (กรณีรันบน Cloud จาก Root)
     path_options = [
-        "questions_thai.txt",                         # รันจาก Root (Cloud)
+        "GroundTruth2/questions_thai.txt",                         # รันจาก Root (Cloud)
         os.path.join(os.path.dirname(__file__), "questions_thai.txt"), # รันจากโฟลเดอร์เดียวกับสคริปต์ (Local)
         "questions_thai.txt"                                      # เผื่อไว้กรณีอื่นๆ
     ]
